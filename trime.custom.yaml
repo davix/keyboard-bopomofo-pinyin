@@ -1,0 +1,57 @@
+patch:
+  "preset_keyboards/bopomofo":
+    name: 拼音化註音鍵盤
+    author: davix @ github
+    ascii_mode: 0
+    width: 10
+    height: 44
+    keys:
+    - {label: 'b', long_click: '!', click: '1'}
+    - {label: 'd', long_click: '@', click: '2'}
+    - {label: 'ˇ', long_click: '#', click: '3'}
+    - {label: 'ˋ', long_click: '$', click: '4'}
+    - {label: 'zh', long_click: '%', click: '5'}
+    - {label: 'ˊ', long_click: '^', click: '6'}
+    - {label: '˙', long_click: '&', click: '7'}
+    - {label: 'a', long_click: '*', click: '8'}
+    - {label: 'ai', long_click: '(', click: '9'}
+    - {label: 'an', long_click: ')', click: '0'}
+    - {label: 'p', long_click: '_', click: q}
+    - {label: 't', long_click: '-', click: w}
+    - {label: 'g', long_click: '+', click: e}
+    - {label: 'j', long_click: '=', click: r}
+    - {label: 'ch', long_click: '|', click: t}
+    - {label: 'z', long_click: '\', click: y}
+    - {label: 'y/i', long_click: '[', click: u}
+    - {label: 'o', long_click: ']', click: i}
+    - {label: 'ei', long_click: '{', click: o}
+    - {label: 'en', long_click: '}', click: p}
+    - {label: 'm', long_click: '`', click: a}
+    - {label: 'n', long_click: Up, click: s}
+    - {label: 'k', long_click: '~', click: d}
+    - {label: 'q', long_click: '!', click: f}
+    - {label: 'sh', click: g, long_click: select_all}
+    - {label: 'c', click: h, long_click: Home}
+    - {label: 'w/u', click: j, long_click: End}
+    - {label: 'e', click: k, long_click: Page_Up}
+    - {label: 'ao', click: l, long_click: Page_Down}
+    - {label: 'ang', long_click: ':', click: ';'}
+    - {label: 'f', click: z, long_click: Left}
+    - {label: 'l', click: x, long_click: Down}
+    - {label: 'h', click: c, long_click: Right}
+    - {label: 'x', click: v, long_click: cut}
+    - {label: 'r', click: b, long_click: copy}
+    - {label: 's', click: n, long_click: paste}
+    - {label: 'ü', click: m, long_click: Insert}
+    - {label: 'ê', long_click: '<', click: ','}
+    - {label: 'ou', long_click: '>', click: '.'}
+    - {label: 'eng', long_click: '?', click: '/'}
+    - {click: Shift_L, label: 換檔, send_bindings: false}
+    - {click: Mode_switch, long_click: Menu}
+    - {click: Keyboard_symbols, long_click: Keyboard_number}
+    - {click: space, width: 30}
+    - {label: 'er', long_click: '"', click: "-"}
+    - {long_click: '。', click: '，'}
+    - {click: BackSpace, long_click: Escape, width: 10}
+    - {click: Return, long_click: CommitComment, width: 10}
+
